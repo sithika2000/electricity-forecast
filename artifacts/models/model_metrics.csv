@@ -1,0 +1,9 @@
+Model,MAE,RMSE,MAPE_%,R2,Train_Time_s
+Baseline_LinearRegression,0.397,3.009,0.029,0.9998,0.05
+Bagging_RandomForest,1.722,2.934,0.118,0.9998,9.88
+Bagging_Regressor,33.761,42.311,2.348,0.9548,5.95
+Boosting_XGBoost,1.399,3.765,0.1,0.9996,1.95
+Boosting_LightGBM,1.313,3.808,0.094,0.9996,3.73
+Boosting_CatBoost,2.281,4.215,0.159,0.9996,0.77
+Stacking_Ensemble,0.059,0.18,0.004,1.0,23.62
+Hybrid_ARIMA_RF,10.974,23.782,0.763,0.9857,2.63
